@@ -1,216 +1,25 @@
-# Verilog HDL Collection
+# RTL Design and SystemVerilog Verification Portfolio
 
-A comprehensive collection of **Verilog HDL** implementations covering the four major modeling styles:
+Welcome to my digital design and verification portfolio.
 
-- Behavioral Modeling
-- Dataflow Modeling
-- Gate-Level Modeling
-- Structural Modeling
+This repository documents my hands-on projects in Verilog HDL, sequential logic design, and SystemVerilog verification. It includes combinational circuits implemented using different RTL modeling styles, synchronous counters, and class-based verification environments.
 
-This repository is intended for students, beginners, and anyone learning digital design using Verilog HDL.
+The projects demonstrate my practical experience in RTL implementation, testbench development, functional simulation, waveform analysis, and verification using QuestaSim.
 
----
+## Project Categories
 
-## Repository Structure
+### 1. Combinational Circuit Design
+[Explore Verilog Projects](Verilog)
 
-```
-Verilog
-│
-├── Behavioral Modelling
-│   ├── AND Gate
-│   ├── OR Gate
-│   ├── NOT Gate
-│   ├── NAND Gate
-│   ├── NOR Gate
-│   ├── XOR Gate
-│   ├── XNOR Gate
-│   ├── Half Adder
-│   ├── Full Adder
-│   ├── Full Subtractor
-│   ├── Multiplexer (MUX)
-│   ├── Demultiplexer (DEMUX)
-│   ├── Encoder
-│   ├── Decoder
-│   └── Comparator
-│
-├── Dataflow Modelling
-│   ├── Logic Gates
-│   └── Combinational Circuits
-│       ├── Half Adder
-│       ├── Half Subtractor
-│       ├── Full Adder
-│       ├── Full Subtractor
-│       ├── Multiplexer (2×1 & 4×1)
-│       ├── Demultiplexer
-│       ├── Encoder
-│       ├── Decoder
-│       └── Comparator
-│
-├── Gate-Level Modelling
-│   ├── Half Adder
-│   ├── Half Subtractor
-│   ├── Full Adder
-│   ├── Full Subtractor
-│   ├── Multiplexer
-│   ├── Demultiplexer
-│   ├── Encoder
-│   ├── Decoder
-│   └── Comparator
-│
-└── Structural Modelling
-    ├── Full Adder
-    ├── Full Subtractor
-    ├── Ripple Carry Adder
-    └── 4×1 Multiplexer
-```
+Implementations using behavioral, dataflow, gate-level, and structural modeling.
+
+### 2. Sequential Circuit Design
+- [Synchronous MOD-10 Up Counter](Sequential_Circuits/MOD10_Up_Counter)
+- [Synchronous 4-bit Up/Down Counter](Sequential_Circuits/Up_Down_Counter)
+
+### 3. SystemVerilog Verification
+- [Class-Based AND Gate Verification](SystemVerilog_Verification/AND_Gate)
+
+This verification project includes randomized stimulus generation, a driver, monitors, mailboxes, and a scoreboard for automated functional checking.
 
 ---
-
-## Topics Covered
-
-### Logic Gates
-
-- AND Gate
-- OR Gate
-- NOT Gate
-- NAND Gate
-- NOR Gate
-- XOR Gate
-- XNOR Gate
-
-### Arithmetic Circuits
-
-- Half Adder
-- Full Adder
-- Half Subtractor
-- Full Subtractor
-- Ripple Carry Adder
-
-### Combinational Circuits
-
-- Multiplexer (MUX)
-- 4×1 Multiplexer
-- Demultiplexer (DEMUX)
-- Encoder
-- Decoder
-- Comparator
-
----
-
-## Verilog Modeling Styles
-
-### Behavioral Modeling
-
-Behavioral modeling describes the behavior of a circuit using procedural statements such as:
-
-- `always`
-- `if-else`
-- `case`
-
-This style focuses on **what the circuit does** rather than how it is built.
-
----
-
-### Dataflow Modeling
-
-Dataflow modeling uses continuous assignments (`assign`) and Boolean expressions to describe how data flows through a circuit.
-
-Example:
-
-```verilog
-assign y = a & b;
-```
-
----
-
-### Gate-Level Modeling
-
-Gate-level modeling connects built-in logic gates such as:
-
-- and
-- or
-- nand
-- nor
-- xor
-- xnor
-- not
-
-to describe digital circuits.
-
----
-
-### Structural Modeling
-
-Structural modeling builds larger circuits by interconnecting smaller modules.
-
-It closely resembles the way hardware is physically constructed.
-
----
-
-## Tools
-
-The designs can be simulated using:
-
-- ModelSim
-- Xilinx Vivado
-- Intel Quartus Prime
-- Icarus Verilog
-- GTKWave
-- EDA Playground
-
----
-
-## Learning Objectives
-
-This repository helps learners understand:
-
-- Verilog HDL syntax
-- Different modeling styles
-- Digital logic design
-- Combinational circuit implementation
-- Module instantiation
-- Hierarchical design
-
----
-
-## Future Additions
-
-Planned updates include:
-
-- Sequential circuits
-- Flip-Flops
-- Latches
-- Counters
-- Shift Registers
-- Finite State Machines (FSM)
-- Testbenches
-- SystemVerilog examples
-
----
-
-## Author
-
-**Abulfathi Ahmad Muhammad**
-
-Civil Engineer transitioning into Digital Design and VLSI Engineering.
-
-- RTL Design
-- Verilog HDL
-- Digital Electronics
-- Physical Design
-
----
-
-## License
-
-This repository is released under the MIT License.
-
-Feel free to use the code for learning, teaching, and personal projects.
-
----
-
-## Contributions
-
-Contributions, suggestions, and improvements are welcome.
-
-If you find this repository helpful, consider giving it a ⭐ to support the project.
